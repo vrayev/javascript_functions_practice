@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function practice</title>
+</head>
+
+</body>
+<script>
+   
+let add7 = (a) => {
+        let result = (a + 7);
+        return result;
+    };
+/*
+alert(add7(103));
+*/
+
+function multiply(a, b) {
+    return a * b;
+};
+
+/*
+alert (multiply(21, 4));
+*/
+
+function capitalize(anyString) {
+    let str = (anyString.charAt(0).toUpperCase() + 
+        anyString.slice(1).toLowerCase());
+    return str;
+};
+/*
+alert(capitalize('hello'));
+alert(capitalize('HELLO'));
+alert(capitalize('hELlo'));
+*/
+
+function lastLetter(aString) {
+    let last = aString.slice(-1);
+    return last;
+}
+alert(lastLetter('last letter only'));
+
+</script>
+</html>
