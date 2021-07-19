@@ -1,0 +1,2 @@
+# javascript_functions_practice
+practicing javascript functions
